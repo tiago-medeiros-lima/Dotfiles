@@ -1,0 +1,19 @@
+[global_config]
+[keybindings]
+[profiles]
+  [[default]]
+    background_color = "#101010"
+    font = MesloLGS NF 10
+    foreground_color = "#f6f5f4"
+    show_titlebar = False
+    palette = "#5e5c64:#ff5858:#33d17a:#ff7a34:#3686d8:#c061cb:#3686d8:#f6f5f4:#5e5c64:#ff5858:#33d17a:#ff7a34:#3686d8:#c061cb:#3686d8:#f6f5f4"
+    use_system_font = False
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+[plugins]
